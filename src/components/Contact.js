@@ -5,12 +5,12 @@ import Row from "react-bootstrap/Row";
 
 function Contacts() {
   return (
-    <div className="container my-5">
+    <div className="container my-6">
       <div className="row">
         <div className="col col-sm-12 col-md-12">
           <h2>Contact Us</h2>
           <Form>
-            <Row className="mb-3">
+            <Row className="mb-3 my-4">
               <Form.Group as={Col} controlId="formGridEmail">
                 <Form.Label>Email</Form.Label>
                 <Form.Control type="email" placeholder="Enter email" />
